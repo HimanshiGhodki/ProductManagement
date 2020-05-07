@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/product_management
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: admin
